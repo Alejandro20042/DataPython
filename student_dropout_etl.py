@@ -6,7 +6,7 @@ import os
 # -------------------------------
 # 1️⃣ Carga de datos
 # -------------------------------
-file_path = "student_dropout.csv"  # Asegúrate de que esté en la misma carpeta
+file_path = "student_dropout.csv"  
 df = pd.read_csv(file_path)
 
 print("Datos originales:")
